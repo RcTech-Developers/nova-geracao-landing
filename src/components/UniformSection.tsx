@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import uniformeTitular from "@/assets/uniforme-titular.png";
 import uniformeReserva from "@/assets/uniforme-reserva.png";
+import uniformeAlternativo from "@/assets/uniforme-alternativo.png";
 
 const WHATSAPP_URL = "https://wa.me/5521991125955?text=Olá!%20Tenho%20interesse%20nos%20uniformes%20do%20Nova%20Geração%20FC!";
 
@@ -19,6 +20,13 @@ const uniforms = [
     image: uniformeReserva,
     name: "Uniforme Reserva 2026",
     description: "Modelo alternativo em preto com detalhes em verde e branco. Visual moderno e elegante.",
+    status: "Disponível",
+  },
+  {
+    id: 3,
+    image: uniformeAlternativo,
+    name: "Uniforme Alternativo 2026",
+    description: "Terceiro uniforme em cinza com detalhes clássicos. Conforto e estilo para treinos e jogos.",
     status: "Em breve",
   },
 ];
@@ -50,7 +58,7 @@ const UniformSection = () => {
         </motion.div>
 
         {/* Carousel */}
-        <div className="relative max-w-md mx-auto mb-10">
+        <div className="relative max-w-sm mx-auto mb-10">
           {/* Arrows */}
           <button
             onClick={prev}
@@ -75,12 +83,12 @@ const UniformSection = () => {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ duration: 0.4 }}
-              className="rounded-2xl overflow-hidden shadow-lg shadow-secondary/15"
+              className="flex items-center justify-center h-[400px] md:h-[480px]"
             >
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-full object-contain bg-white/5"
+                className="max-h-full w-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.35)]"
                 loading="lazy"
               />
             </motion.div>
