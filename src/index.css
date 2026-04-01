@@ -77,31 +77,35 @@
 
 @layer components {
   .btn-cta {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg px-8 py-4 font-bold text-lg uppercase tracking-wider transition-all duration-300;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-10 py-5 font-bold text-xl uppercase tracking-wider transition-all duration-300;
     background: var(--gradient-cta);
     color: hsl(var(--primary-foreground));
-    box-shadow: var(--shadow-glow);
+    box-shadow: 0 0 30px hsl(155, 62%, 40%, 0.3), 0 4px 15px hsl(0, 0%, 0%, 0.2);
   }
 
   .btn-cta:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 60px hsl(155, 62%, 40%, 0.35);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 50px hsl(155, 62%, 40%, 0.45), 0 8px 25px hsl(0, 0%, 0%, 0.3);
   }
 
   .btn-outline-hero {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg px-8 py-4 font-bold text-lg uppercase tracking-wider transition-all duration-300 border-2;
-    border-color: hsl(var(--secondary));
-    color: hsl(var(--secondary));
-    background: transparent;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-10 py-5 font-bold text-xl uppercase tracking-wider transition-all duration-300 border-2;
+    border-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 100%, 0.08);
+    box-shadow: 0 0 20px hsl(155, 62%, 40%, 0.15);
   }
 
   .btn-outline-hero:hover {
-    background: hsl(var(--secondary) / 0.1);
-    transform: translateY(-2px);
+    background: hsl(0, 0%, 100%, 0.15);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 35px hsl(155, 62%, 40%, 0.3);
+    border-color: hsl(var(--secondary));
+    color: hsl(var(--secondary));
   }
 
   .section-gradient {
-    background: var(--gradient-hero);
+    background: linear-gradient(160deg, hsl(152, 73%, 8%) 0%, hsl(152, 73%, 16%) 40%, hsl(155, 50%, 22%) 70%, hsl(152, 73%, 12%) 100%);
   }
 
   .card-glass {

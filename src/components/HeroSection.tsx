@@ -17,20 +17,22 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-8"
+          className="mb-10"
         >
-          <img
-            src={logo}
-            alt="Nova Geração FC"
-            className="w-40 h-40 md:w-52 md:h-52 rounded-full mx-auto border-4 border-secondary shadow-lg shadow-secondary/30 object-cover"
-          />
+          <div className="w-44 h-44 md:w-56 md:h-56 rounded-full mx-auto overflow-hidden shadow-[0_0_50px_hsl(155,62%,40%,0.35)]">
+            <img
+              src={logo}
+              alt="Nova Geração FC"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="font-display text-5xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight text-foreground glow-text mb-4"
+          className="font-display text-5xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight text-foreground glow-text mb-6"
         >
           Nova Geração FC
         </motion.h1>
@@ -39,7 +41,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.5 }}
-          className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10 font-body"
+          className="text-xl md:text-2xl lg:text-3xl text-white max-w-2xl mx-auto mb-14 font-body tracking-wide drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]"
         >
           Mais que um time, uma família apaixonada por futebol.
         </motion.p>
@@ -48,7 +50,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.7 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center"
+          className="flex flex-col sm:flex-row gap-5 justify-center"
         >
           <a href="#patrocinio" className="btn-cta">
             ⚽ Seja Patrocinador
