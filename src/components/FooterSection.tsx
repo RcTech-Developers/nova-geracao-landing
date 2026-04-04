@@ -2,7 +2,7 @@ import { Instagram, MessageCircle } from "lucide-react";
 import logo from "@/assets/logo.jpeg";
 
 const FooterSection = () => (
-  <footer className="py-12 bg-background border-t border-border">
+  <footer className="py-12 section-gradient border-t border-border">
     <div className="container px-4">
       <div className="flex flex-col items-center gap-6">
         <img src={logo} alt="Nova Geração FC" className="w-16 h-16 rounded-full object-cover" />

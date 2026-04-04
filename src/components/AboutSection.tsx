@@ -20,7 +20,7 @@ const highlights = [
 ];
 
 const AboutSection = () => (
-  <section id="sobre" className="py-24 bg-background">
+  <section id="sobre" className="py-24 section-gradient">
     <div className="container px-4">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

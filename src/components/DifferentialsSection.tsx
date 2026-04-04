@@ -9,7 +9,7 @@ const items = [
 ];
 
 const DifferentialsSection = () => (
-  <section className="py-24 bg-background">
+  <section className="py-24 section-gradient">
     <div className="container px-4">
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
