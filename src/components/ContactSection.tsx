@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle, Instagram } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/5521991125955?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20Nova%20Geração%20FC!";
+const WHATSAPP_URL = "https://wa.me/5521991125955?text=Olá!%20Quero%20agendar%20um%20amistoso%20com%20Nova%20Geração%20FC!";
 
 const ContactSection = () => (
   <section id="contato" className="py-24 section-gradient">
@@ -27,7 +27,7 @@ const ContactSection = () => (
             className="btn-cta"
           >
             <MessageCircle className="w-5 h-5" />
-            Entrar em Contato
+            Agendar Amistoso
           </a>
           <a
             href="https://www.instagram.com/novageracao.team"

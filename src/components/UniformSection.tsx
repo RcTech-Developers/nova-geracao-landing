@@ -11,23 +11,23 @@ const uniforms = [
   {
     id: 1,
     image: uniformeTitular,
-    name: "Uniforme Titular 2026",
+    name: "Uniforme Jogador",
     description: "Material leve, fresco e confortável, perfeito para o dia a dia. Vista o peso da nossa história, garanta já o seu e represente o NGFC.",
     status: "Disponível",
   },
   {
     id: 2,
     image: uniformeReserva,
-    name: "Uniforme Reserva 2026",
+    name: "Uniforme Goleiro",
     description: "Material leve, fresco e confortável, perfeito para o dia a dia. Vista o peso da nossa história, garanta já o seu e represente o NGFC.",
     status: "Disponível",
   },
   {
     id: 3,
     image: uniformeAlternativo,
-    name: "Uniforme Alternativo 2026",
+    name: "Uniforme Comissão Técnica",
     description: "Material leve, fresco e confortável, perfeito para o dia a dia. Vista o peso da nossa história, garanta já o seu e represente o NGFC.",
-    status: "Em breve",
+    status: "Disponível",
   },
 ];
 
@@ -141,7 +141,7 @@ const UniformSection = () => {
                 rel="noopener noreferrer"
                 className="btn-cta"
               >
-                💬 Fale Conosco
+                💬 Encomende Já
               </a>
             </div>
           </motion.div>

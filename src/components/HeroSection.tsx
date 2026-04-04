@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logoo-bg.png";
 
 const WHATSAPP_URL = "https://wa.me/5521991125955?text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20Nova%20Geração%20FC!";
 

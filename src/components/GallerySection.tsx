@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import gallery1 from "@/assets/gallery1.jpg";
-import gallery2 from "@/assets/gallery2.jpg";
-import gallery3 from "@/assets/gallery3.jpg";
-import gallery4 from "@/assets/gallery4.jpg";
-import gallery5 from "@/assets/gallery5.jpg";
-import gallery6 from "@/assets/gallery6.jpg";
+import gallery1 from "@/assets/time-1.jpeg";
+import gallery2 from "@/assets/trofeu.jpeg";
+import gallery3 from "@/assets/time-2.jpeg";
+import gallery4 from "@/assets/time-3.jpeg";
+import gallery5 from "@/assets/ultras.jpeg";
+import gallery6 from "@/assets/time-4.jpeg";
 
 const images = [
   { src: gallery1, alt: "Jogo do Nova Geração FC" },
@@ -36,17 +36,16 @@ const GallerySection = () => (
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: i * 0.1 }}
-            className="relative overflow-hidden rounded-xl group aspect-square"
+            className="relative overflow-hidden rounded-xl group h-64 md:h-72"
           >
             <img
               src={img.src}
               alt={img.alt}
               loading="lazy"
-              width={800}
-              height={800}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/40 transition-colors duration-300" />
+
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300" />
           </motion.div>
         ))}
       </div>
