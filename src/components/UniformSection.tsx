@@ -19,7 +19,7 @@ const uniforms = [
     id: 2,
     image: uniformeReserva,
     name: "Uniforme Reserva 2026",
-    description: "Modelo alternativo em preto com detalhes em verde e branco. Visual moderno e elegante.",
+    description: "Material leve, fresco e confortável, perfeito para o dia a dia. Vista o peso da nossa história, garanta já o seu e represente o NGFC.",
     status: "Disponível",
   },
   {
