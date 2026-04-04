@@ -26,7 +26,7 @@ const uniforms = [
     id: 3,
     image: uniformeAlternativo,
     name: "Uniforme Alternativo 2026",
-    description: "Terceiro uniforme em cinza com detalhes clássicos. Conforto e estilo para treinos e jogos.",
+    description: "Material leve, fresco e confortável, perfeito para o dia a dia. Vista o peso da nossa história, garanta já o seu e represente o NGFC.",
     status: "Em breve",
   },
 ];
