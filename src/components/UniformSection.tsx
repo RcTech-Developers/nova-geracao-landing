@@ -12,7 +12,7 @@ const uniforms = [
     id: 1,
     image: uniformeTitular,
     name: "Uniforme Titular 2026",
-    description: "Design clássico com as cores tradicionais verde e branco do clube. Material leve e de alta performance.",
+    description: "Material leve, fresco e confortável, perfeito para o dia a dia. Vista o peso da nossa história, garanta já o seu e represente o NGFC.",
     status: "Disponível",
   },
   {
